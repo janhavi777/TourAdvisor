@@ -28,7 +28,11 @@ const Header = ({ onPlaceChanged, onLoad }) => {
             </div>
           </Autocomplete>
         </Box> */}
-        <a  className='btnLogin'>Login</a>
+       <div>
+       <a href='/login' className='btnLogin'>Login</a>
+        <a href="packages.html">Packages</a>
+       </div>
+
       </Toolbar>
     </AppBar>
   );
